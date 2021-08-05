@@ -1,0 +1,6 @@
+A git repository is a workspace which tracks and manages files within a folder locally.
+
+1. git status command gives information on the current status of a git repository and its contents.
+
+2. git init command is used to create a new git repository. Before we do anything git related,
+we must initialise a repository first.
