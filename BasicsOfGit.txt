@@ -4,3 +4,8 @@ A git repository is a workspace which tracks and manages files within a folder l
 
 2. git init command is used to create a new git repository. Before we do anything git related,
 we must initialise a repository first.
+
+- Do not init a repo inside of a repo.
+- Before running git init, use git status to verify that you are not currently inside of a repository.
+
+3. Use git add command to stage changes to be committed.
