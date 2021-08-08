@@ -15,25 +15,25 @@ Git vs Github
 ## Basics of Git
 A git repository is a workspace which tracks and manages files within a folder locally.
 
-1. git status command gives information on the current status of a git repository and its contents.
+1. **git status** command gives information on the current status of a git repository and its contents.
 
-2. git init command is used to create a new git repository. Before we do anything git related,
+2. **git init** command is used to create a new git repository. Before we do anything git related,
 we must initialise a repository first.
 
 Do not init a repo inside of a repo.
 Before running git init, use git status to verify that you are not currently inside of a repository.
 
-3. Use git add command to stage changes to be committed.
+3. Use **git add** command to stage changes to be committed.
 
 Working Directory -> git add -> Staging Area ->
 git commit -> repository
 
-4. Use the git commit command to commit changes from the staging area.
-git commit -m "message"
+4. Use the **git commit** command to commit changes from the staging area.
+**git commit -m "message"**
 
-5. git log command shows logs of commits.
+5. **git log** command shows logs of commits.
 
-6. git add . command to stage all changes at once.
+6. **git add .** command to stage all changes at once.
 
 
 ## Commits in Detail
@@ -45,4 +45,4 @@ or project easier to review.
 
 Use present tense for writing commit messages.
 
-(CMD + Shift + >) to see hidden files. Press again to hide.
+*(CMD + Shift + >)* to see hidden files. Press again to hide.
