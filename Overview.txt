@@ -1,9 +1,0 @@
-Git is a version control system (VCS).
-Version control is a software that tracks and manages changes to files over time.
-
-Fork can be seen as an alternative route.
-
-Git vs Github
-1. Git is a VCS that runs locally on our computer. We can use git without never touching Github.
-2. Github is a web service that hosts git repositories in the cloud.
-3. Git is primarily a terminal tool.
