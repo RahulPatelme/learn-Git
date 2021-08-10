@@ -66,3 +66,14 @@ This just creates the branch. It does not switch you to that branch (the HEAD st
 6. **git branch -D branch-name** for force delete.
 
 7. **git branch -m new-name** to rename a branch.
+
+
+## Merging Branches 
+We merge branches, not specific commits. 
+We always merge to the current HEAD branch. 
+
+1. Switch to the branch you want to merge the changes into (the receiving branch). 
+
+2. Use **git merge branch-name** to merge changes from a specific branch into the current branch. 
+
+Merge conflicts needs to be resolved manually. 
