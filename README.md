@@ -77,3 +77,10 @@ We always merge to the current HEAD branch.
 2. Use **git merge branch-name** to merge changes from a specific branch into the current branch. 
 
 Merge conflicts needs to be resolved manually. 
+
+
+## Comparing Changes with Git Diff 
+Often git diff is used alongside commands like **git status** and **git log**, to get a better picture of a repository 
+and how it has changed over time. 
+
+1. **git diff** lists all the changes in our working directory that are NOT staged for the next commit. 
